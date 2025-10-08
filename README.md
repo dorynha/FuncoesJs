@@ -2,11 +2,15 @@
 Tutorial de Funções: Como criar funções em javascript e para que servem.
 ## DEFININDO FUNÇÃO
 
-Funções são blocos de código utilizados para melhorar a estrutura do código, já que trechos repetitivos <br>
-Todas as funções possuem parâmetro e corpo. O(s) parâmetro(s) pode ser definido ou não ao criar a função e sempre estará entre parenteses: (), e o corpo sempre estará entre chaves: {}.
+Funções são blocos de código utilizados para melhorar a estrutura do código, já que trechos repetitivos acabam o deixando  desnecessariamente grande e pode atrapalhar, se tiver um código complexo.<br>
+Todas as funções possuem parâmetro, corpo e argumento. Na criação de uma função, o parâmetro pode ou não ser especificado, vindo após o identificador e entre parênteses, e o corpo entre as chaves {}. Exemplo: ```
+function somar(valor1, valor2){
+   return valor1 + valor2;
+}
+```
 
 ## FUNÇÃO DECLARATIVA 
-Ao criarmos a função declarativa, iniciamos o código com a palavra-chave ``function``, seguida pelos parâmetros desejados e depois criamos o seu corpo com o retorno do que queremos.
+Ao criar a função declarativa, inicia-se o código com a palavra-chave ``function``, seguida pelo identificador  e então os parâmetros desejados e depois o seu corpo com o retorno .
 ```
 function somar(valor1, valor2){
   return valor1 + valor2;
